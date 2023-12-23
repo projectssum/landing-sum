@@ -4,7 +4,7 @@
 
 <header class="header">
     <div class="header-left-block">
-        <img src="/src/lib/assets/image/icon.png" alt="icon"/>
+
         <h2>Mr SUM</h2>
     </div>
     <nav class="header-right-block">
