@@ -1,4 +1,6 @@
 <script>
+    import {base} from "$app/paths";
+
     export let title = "Title";
     export let subTitle = "Subtitle";
 
@@ -6,13 +8,13 @@
 <div class="container">
     <div class="card ">
         <div class="image">
-            <img src="/PARADE2.jpg" alt=""/>
+            <img src="{base}/PARADE2.jpg" alt=""/>
         </div>
         <div class="sticker sticker-left">
-            <img src="/src/lib/assets/image/dancing%20(1).png" alt=""/>
+            <img src="{base}/dancing%20(1).png" alt=""/>
         </div>
         <div class="sticker sticker-right">
-            <img src="/src/lib/assets/image/breakdance%20(1).png" alt=""/>
+            <img src="{base}/breakdance%20(1).png" alt=""/>
         </div>
         <div class="title-block">
             <h1>{title}</h1>
