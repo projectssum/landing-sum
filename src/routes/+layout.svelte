@@ -21,7 +21,7 @@
 </header>
 <div class="main-block">
     <div class="main-image">
-        <img src="/stars.png" alt="icon"/>
+        <img src="{base}/stars.png" alt="icon"/>
     </div>
     <div class="main-title">
         <h1>SUM</h1>

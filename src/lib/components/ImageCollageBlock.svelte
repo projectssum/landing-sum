@@ -1,21 +1,22 @@
 <script>
 
+import {base} from "$app/paths";
 </script>
 
 <div class="card container">
     <div class="grid-image">
         <div class="image">
-            <img src="/src/lib/assets/image/MRS1%20(2).jpg" alt=""/>
+            <img src="{base}MRS1%20(2).jpg" alt=""/>
         </div>
         <div class="image">
-            <img src="/src/lib/assets/image/MRS3%20(2).jpg" alt=""/>
+            <img src="{base}MRS3%20(2).jpg" alt=""/>
         </div>
         <div class="image">
-            <img src="/src/lib/assets/image/MRS4%20(2).jpg" alt=""/>
+            <img src="{base}MRS4%20(2).jpg" alt=""/>
         </div>
 
         <div class="image">
-            <img src="/src/lib/assets/image/MRS5%20(2).jpg" alt=""/>
+            <img src="{base}MRS5%20(2).jpg" alt=""/>
         </div>
     </div>
 </div>
