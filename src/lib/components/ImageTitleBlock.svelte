@@ -11,10 +11,10 @@
             <img src="{base}/PARADE2.jpg" alt=""/>
         </div>
         <div class="sticker sticker-left">
-            <img src="{base}/dancing%20(1).png" alt=""/>
+            <img src="{base}/dancing.png" alt=""/>
         </div>
         <div class="sticker sticker-right">
-            <img src="{base}/breakdance%20(1).png" alt=""/>
+            <img src="{base}/breakdance.png" alt=""/>
         </div>
         <div class="title-block">
             <h1>{title}</h1>
