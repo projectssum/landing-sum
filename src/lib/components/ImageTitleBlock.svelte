@@ -6,7 +6,7 @@
 <div class="container">
     <div class="card ">
         <div class="image">
-            <img src="/src/lib/assets/image/PARADE2.jpg" alt=""/>
+            <img src="/PARADE2.jpg" alt=""/>
         </div>
         <div class="sticker sticker-left">
             <img src="/src/lib/assets/image/dancing%20(1).png" alt=""/>
