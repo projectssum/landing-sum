@@ -24,7 +24,7 @@
 
 <style>
     .card {
-        height: 700px;
+        height: 600px;
         position: relative;
     }
 
@@ -37,18 +37,21 @@
     }
 
     .image img {
-        max-width: 100%;
-        height: 100%;
+        width: 70%;
+        height: 70%;
         @media (max-width: 1200px) {
             height: 100%;
+            width: 100%;
             object-fit: cover;
         }
         @media (max-width: 992px) {
             height: 100%;
+            width: 100%;
             object-fit: cover;
         }
         @media (max-width: 767px ) {
             height: 100%;
+            width: 100%;
             object-fit: cover;
         }
     }

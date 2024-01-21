@@ -10,25 +10,25 @@
     <div class="container">
         <div style="background: url({base}{image1}) no-repeat 50% / cover;">
             <div class="content">
-                <h2>Jane Doe</h2>
+                <h3>Jane Doe</h3>
                 <span>UI & UX Designer</span>
             </div>
         </div>
         <div style="background: url({base}{image2}) no-repeat 50% / cover">
             <div class="content">
-                <h2>Alex Smith</h2>
+                <h3>Alex Smith</h3>
                 <span>CEO Expert</span>
             </div>
         </div>
         <div style="background: url({base}{image3}) no-repeat 50% / cover">
             <div class="content">
-                <h2>Emily New</h2>
+                <h3>Emily New</h3>
                 <span>Web Designer</span>
             </div>
         </div>
         <div style="background: url({base}{image4}) no-repeat 50% / cover">
             <div class="content">
-                <h2>Lisa Boley</h2>
+                <h3>Lisa Boley</h3>
                 <span>Marketing Coordinator</span>
             </div>
         </div>
@@ -43,7 +43,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
-    height: 900px;
+    height: 600px;
     @media (max-width: 900px) {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, 600px);

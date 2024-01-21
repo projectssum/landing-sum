@@ -32,34 +32,34 @@
     <nav class="header-right-block">
         <ul class="head-menu">
             <li><a href="https://guu.ru/" target="_blank">
-                <svg width="48" height="48">
-                    <image xlink:href="university.svg" width="48" height="48"/>
+                <svg width="40" height="40">
+                    <image xlink:href="university.svg" width="40" height="40"/>
                 </svg>
             </a></li>
             <li><a href="https://vk.com/sum_moscow" target="_blank">
-                <svg width="48" height="48">
-                    <image xlink:href="vk.svg" width="48" height="48"/>
+                <svg width="40" height="40">
+                    <image xlink:href="vk.svg" width="40" height="40"/>
                 </svg>
             </a></li>
             <li><a href="https://t.me/GUUmsk" target="_blank">
-                <svg width="48" height="48">
-                    <image xlink:href="telegram.svg" width="48" height="48"/>
+                <svg width="40" height="40">
+                    <image xlink:href="telegram.svg" width="40" height="40"/>
                 </svg>
             </a></li>
             <li><a href="https://iis.guu.ru/" target="_blank">
-                <svg width="48" height="48">
-                    <image xlink:href="pc.svg" width="48" height="48"/>
+                <svg width="40" height="40">
+                    <image xlink:href="pc.svg" width="40" height="40"/>
                 </svg>
             </a>
             </li>
             <li><a href="https://www.youtube.com/channel/UCBd1Mk1kNMfIhnMBUKoJIEQ" target="_blank">
-                <svg width="48" height="48">
-                    <image xlink:href="youtube.svg" width="48" height="48"/>
+                <svg width="40" height="40">
+                    <image xlink:href="youtube.svg" width="40" height="40"/>
                 </svg>
             </a></li>
             <li><a href=https://t.me/miss_sum23 target="_blank">
-                <svg width="48" height="48">
-                    <image xlink:href="heart.svg" width="48" height="48"/>
+                <svg width="40" height="40">
+                    <image xlink:href="heart.svg" width="40" height="40"/>
                 </svg>
             </a></li>
         </ul>
@@ -67,12 +67,12 @@
     <button class="burger" on:click={() => statusBurger = !statusBurger}><span></span></button>
     {#if statusBurger}
         <nav class="burger-menu">
-            <li><a href="https://guu.ru/" target="_blank"><h2>Университет</h2></a></li>
-            <li><a href="https://vk.com/sum_moscow" target="_blank"><h2>ВК</h2></a></li>
-            <li><a href="https://t.me/GUUmsk" target="_blank"><h2>Телеграмм</h2></a></li>
-            <li><a href="https://iis.guu.ru/" target="_blank"><h2>ИИС</h2></a></li>
-            <li><a href="https://www.youtube.com/channel/UCBd1Mk1kNMfIhnMBUKoJIEQ" target="_blank"><h2>Ютуб</h2></a></li>
-            <li><a href=https://t.me/miss_sum23 target="_blank"><h2>МИСС</h2></a></li>
+            <li><a href="https://guu.ru/" target="_blank"><h3>Университет</h3></a></li>
+            <li><a href="https://vk.com/sum_moscow" target="_blank"><h3>ВК</h3></a></li>
+            <li><a href="https://t.me/GUUmsk" target="_blank"><h3>Телеграмм</h3></a></li>
+            <li><a href="https://iis.guu.ru/" target="_blank"><h3>ИИС</h3></a></li>
+            <li><a href="https://www.youtube.com/channel/UCBd1Mk1kNMfIhnMBUKoJIEQ" target="_blank"><h3>Ютуб</h3></a></li>
+            <li><a href=https://t.me/miss_sum23 target="_blank"><h3>МИСС</h3></a></li>
         </nav>
     {/if}
 
@@ -150,7 +150,7 @@
     .burger-menu {
         display: flex;
         flex-direction: column;
-        gap: 4rem;
+        gap: 20px;
         position: fixed;
         top: 0;
         left: 0;
