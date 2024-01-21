@@ -3,7 +3,7 @@
 import {base} from "$app/paths";
 </script>
 
-<div class="card container">
+<div class="card _container">
     <div class="grid-image">
         <div class="image">
             <img src="{base}/MRS1.jpg" alt=""/>
