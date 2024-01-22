@@ -3,18 +3,21 @@
 
     export let title = "Title";
     export let subTitle = "Subtitle";
+    export let image = "";
+    export let sticker1 = "dancing.png";
+    export let sticker2 = "breakdance.png";
 
 </script>
 
 <div class="card ">
     <div class="image">
-        <img src="{base}/PARADE2.jpg" alt=""/>
+        <img src="{base}/{image}" alt=""/>
     </div>
     <div class="sticker sticker-left">
-        <img src="{base}/dancing.png" alt=""/>
+        <img src="{base}/{sticker1}" alt=""/>
     </div>
     <div class="sticker sticker-right">
-        <img src="{base}/breakdance.png" alt=""/>
+        <img src="{base}/{sticker2}" alt=""/>
     </div>
     <div class="title-block">
         <h2>{title}</h2>
@@ -39,6 +42,7 @@
     .image img {
         width: 70%;
         height: 70%;
+        object-fit: cover;
         @media (max-width: 1200px) {
             height: 100%;
             width: 100%;

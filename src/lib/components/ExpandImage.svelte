@@ -1,35 +1,43 @@
 <script>
-    export let image1 = "/MRS1.jpg";
-    export let image2 = "/MRS1.jpg";
-    export let image3 = "/MRS1.jpg";
-    export let image4 = "/MRS1.jpg";
+    export let image1 = "MRS1.jpg";
+    export let image2 = "MRS1.jpg";
+    export let image3 = "MRS1.jpg";
+    export let image4 = "MRS1.jpg";
+    export let text1 = "";
+    export let text2 = "";
+    export let text3 = "";
+    export let text4 = "";
+    export let title1 = "";
+    export let title2 = "";
+    export let title3 = "";
+    export let title4 = "";
     import {base} from '$app/paths'
 
 </script>
 <div class="">
     <div class="container">
-        <div style="background: url({base}{image1}) no-repeat 50% / cover;">
+        <div style="background: url({base}/{image1}) no-repeat 50% / cover;">
             <div class="content">
-                <h3>Jane Doe</h3>
-                <span>UI & UX Designer</span>
+                <h3>{title1}</h3>
+                <span>{text1}</span>
             </div>
         </div>
-        <div style="background: url({base}{image2}) no-repeat 50% / cover">
+        <div style="background: url({base}/{image2}) no-repeat 50% / cover">
             <div class="content">
-                <h3>Alex Smith</h3>
-                <span>CEO Expert</span>
+                <h3>{title2}</h3>
+                <span>{text2}</span>
             </div>
         </div>
-        <div style="background: url({base}{image3}) no-repeat 50% / cover">
+        <div style="background: url({base}/{image3}) no-repeat 50% / cover">
             <div class="content">
-                <h3>Emily New</h3>
-                <span>Web Designer</span>
+                <h3>{title3}</h3>
+                <span>{text3}</span>
             </div>
         </div>
-        <div style="background: url({base}{image4}) no-repeat 50% / cover">
+        <div style="background: url({base}/{image4}) no-repeat 50% / cover">
             <div class="content">
-                <h3>Lisa Boley</h3>
-                <span>Marketing Coordinator</span>
+                <h3>{title4}</h3>
+                <span>{text4}</span>
             </div>
         </div>
     </div>
