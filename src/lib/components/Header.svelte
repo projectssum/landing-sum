@@ -27,7 +27,6 @@
 <header class={headerClass}>
     <div class="header-left-block">
         <img src="{base}/icon.png" alt="icon"/>
-        <h3></h3>
     </div>
     <nav class="header-right-block">
         <ul class="head-menu">
